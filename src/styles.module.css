@@ -1,0 +1,67 @@
+.social-icons-container {
+    display: flex;
+  }
+  
+  .social-icons-container a {
+    margin-right: 10px;
+    color: rgb(12, 11, 11); /* Set the color to black */
+  }
+  
+  /* Add hover effect if desired */
+  .social-icons-container a:hover {
+    color: #101011; /* Change the color on hover if desired */
+  }
+  .jump-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .jump {
+    animation: jumpAnimation 0.5s infinite alternate; /* Change the animation duration as needed */
+  }
+  
+  @keyframes jumpAnimation {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-20px); /* Adjust the jump height as needed */
+    }
+  }
+  .brand-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .brand-image {
+    max-width: 183px;
+    height: auto;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    text-align: center;
+    float: left;
+   
+  }
+  /* dfgyhui */
+  
+  
+  .card-animation {
+  animation: cardMove 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes cardMove {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateX(-5px);
+  }
+  }
